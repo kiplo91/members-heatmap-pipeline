@@ -1,0 +1,28 @@
+{"timestamp":"2026-04-07T18:35:41.140258Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 1440. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-07T18:35:41.384266Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-07T18:35:41.385343Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/members_heatmap_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-07T18:35:41.393144Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/members_heatmap_pipeline.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-04-07T18:35:41.409726Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.409977Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.410210Z","level":"info","event":"Current task name:extract_data_task","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.410416Z","level":"info","event":"Dag name:members_heatmap_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.859707Z","level":"warning","event":"Columns (12,13) have mixed types. Specify dtype option on import or set low_memory=False.","category":"DtypeWarning","filename":"/opt/airflow/dags/members_heatmap_pipeline.py","lineno":12,"logger":"py.warnings"}
+{"timestamp":"2026-04-07T18:35:41.953082Z","level":"info","event":"File is read from /opt/airflow/data/member_address.csv","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.966246Z","level":"info","event":"                     t_name  ... last_address_updated_date_at","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.966484Z","level":"info","event":"0             WEE BEE LIANG  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.966672Z","level":"info","event":"1             WEE BEE LIANG  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.966856Z","level":"info","event":"2             WEE BEE LIANG  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.967042Z","level":"info","event":"3             WEE BEE LIANG  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.967228Z","level":"info","event":"4             WEE BEE LIANG  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.967421Z","level":"info","event":"...                     ...  ...                          ...","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.967592Z","level":"info","event":"180939           TAN JI JUN  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.967761Z","level":"info","event":"180940  JOAHN WITH REFERRAL  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.967929Z","level":"info","event":"180941             NICKTEST  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.968091Z","level":"info","event":"180942  JASON WITH REFERRAL  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.968253Z","level":"info","event":"180943                 ASDA  ...                           \\N","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.968415Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.968575Z","level":"info","event":"[180944 rows x 23 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.977264Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-07T18:35:41.989829Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.990065Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:35:41.990305Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_data_task>","logger":"task.stdout"}

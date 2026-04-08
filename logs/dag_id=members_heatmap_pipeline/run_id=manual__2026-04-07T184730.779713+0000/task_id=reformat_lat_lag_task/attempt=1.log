@@ -1,0 +1,18 @@
+{"timestamp":"2026-04-07T18:47:36.105706Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 1598. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-07T18:47:36.347058Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-07T18:47:36.348106Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/members_heatmap_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-07T18:47:36.356143Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/members_heatmap_pipeline.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-04-07T18:47:36.371922Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.372159Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.372461Z","level":"info","event":"Current task name:reformat_lat_lag_task","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.372654Z","level":"info","event":"Dag name:members_heatmap_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.387700Z","level":"info","event":"  State_code       Lat         Lon","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.387946Z","level":"info","event":"0        JOH  1.980484  103.220223","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.388163Z","level":"info","event":"1        KDH  6.003564  100.495334","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.388371Z","level":"info","event":"2        KEL  5.680107  102.113650","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.388623Z","level":"info","event":"3        MEL  2.334614  102.291387","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.388794Z","level":"info","event":"4        NES  2.720562  102.064679","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.390319Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-07T18:47:36.404088Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.404322Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:47:36.404574Z","level":"info","event":"Task operator:<Task(PythonOperator): reformat_lat_lag_task>","logger":"task.stdout"}

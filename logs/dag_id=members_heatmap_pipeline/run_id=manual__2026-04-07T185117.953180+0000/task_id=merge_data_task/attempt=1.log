@@ -1,0 +1,28 @@
+{"timestamp":"2026-04-07T18:51:22.819361Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 1663. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-07T18:51:23.059582Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-07T18:51:23.060599Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/members_heatmap_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-07T18:51:23.068017Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/members_heatmap_pipeline.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-04-07T18:51:23.083706Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.083951Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.084178Z","level":"info","event":"Current task name:merge_data_task","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.084350Z","level":"info","event":"Dag name:members_heatmap_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.098544Z","level":"info","event":"   t_area_id  member_count  Lat  Lon","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.098778Z","level":"info","event":"0         00             1  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.098979Z","level":"info","event":"2      Johor             8  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.099161Z","level":"info","event":"5        KUL          5011  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.099352Z","level":"info","event":"6        LBN            49  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.099543Z","level":"info","event":"12       PER          4297  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.099734Z","level":"info","event":"13       PUT           212  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.099906Z","level":"info","event":"16       SGR             1  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.100072Z","level":"info","event":"19        \\N           124  NaN  NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.100808Z","level":"info","event":"  t_area_id  member_count       Lat         Lon","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.100978Z","level":"info","event":"0        00             1       NaN         NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.101152Z","level":"info","event":"1       JOH         10397  1.980484  103.220223","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.101325Z","level":"info","event":"2     Johor             8       NaN         NaN","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.101501Z","level":"info","event":"3       KDH          2288  6.003564  100.495334","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.101668Z","level":"info","event":"4       KEL          1172  5.680107  102.113650","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.103190Z","level":"info","event":"added to /opt/airflow/data/heatmap_final.csv","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.103229Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-07T18:51:23.115137Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.115377Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-07T18:51:23.115619Z","level":"info","event":"Task operator:<Task(PythonOperator): merge_data_task>","logger":"task.stdout"}
