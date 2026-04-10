@@ -100,6 +100,7 @@ def merge_data():
 with DAG(
     dag_id='members_heatmap_pipeline',
     start_date=datetime(2024,1,1),
+    schedule="@daily",
     catchup=False
     
 ) as dag:
